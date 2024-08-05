@@ -38,6 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <link rel="icon" href="/f.png" type="image/png"></link>
       <body
         className={cn(
           'antialiased',
