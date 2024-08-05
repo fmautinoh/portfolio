@@ -3,7 +3,8 @@ import Link from "next/link"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { JSX, SVGProps } from "react"
-import ModalContact from '@/components/component/modalcontact'
+import ModalContact from "@/components/component/modalcontact"
+import Image from 'next/image';
 
 export function Portfolio() {
   return (
@@ -11,7 +12,7 @@ export function Portfolio() {
       <header className="px-4 lg:px-6 py-9 h-14 flex items-center">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <CodeIcon className="h-6 w-6" />
-          <span className="sr-only">Fernando Mautino's Portfolio</span>
+          <span className="sr-only">Fernando Mautino&apos;s Portfolio</span>
         </Link>
       </header>
       <main className="flex-1">
@@ -25,13 +26,13 @@ export function Portfolio() {
               <ModalContact></ModalContact>
             </div>
             <div className="">
-              <img
+              <Image
                 src="/programador.gif"
-                width="400"
-                height="400"
+                width={400}
+                height={400}
                 alt="Rz"
                 className="mx-auto rounded-full"
-                style={{ aspectRatio: "400/400", objectFit: "cover" }}
+                style={{ aspectRatio: "1 / 1", objectFit: "cover" }}
               />
             </div>
           </div>
@@ -49,7 +50,7 @@ export function Portfolio() {
                 <CodeIcon className="w-8 h-8 mb-2 text-primary" />
                 <h3 className="text-lg font-semibold">Desarrollo Backend Web</h3>
                 <p className="text-muted-foreground text-sm">
-                  Experiencia en la creación de aplicaciones escalables y eficientes utilizando JavaScript, Typescript y c#(ASP.Net Core) para la creación de REST/API.
+                  Experiencia en la creación de aplicaciones escalables y eficientes utilizando JavaScript, Typescript y c# - ASP.Net Core para la creación de REST/API.
                 </p>
               </div>
               <div className="p-4 bg-background rounded-lg shadow-sm">
@@ -70,8 +71,7 @@ export function Portfolio() {
                 <TerminalIcon className="w-8 h-8 mb-2 text-primary" />
                 <h3 className="text-lg font-semibold">Docker</h3>
                 <p className="text-muted-foreground text-sm">
-                  Experiencia con Docker para la contenedorización, creación y gestión de imágenes y contenedores Docker,
-                  y uso de Docker Compose para aplicaciones multicontenedor.
+                  Experiencia con Docker para la contenedorización, creación y gestión de imágenes y contenedores Docker,y uso de Docker Compose para aplicaciones multicontenedor.
                 </p>
               </div>
             </div>
@@ -168,7 +168,7 @@ export function Portfolio() {
                 <CardHeader>
                   <CardTitle>Typescript</CardTitle>
                   <CardDescription>
-                  Valida el conocimiento de los fundamentos y las mejores prácticas del lenguaje de programación Typescript.
+                    Valida el conocimiento de los fundamentos y las mejores prácticas del lenguaje de programación Typescript.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -202,7 +202,7 @@ export function Portfolio() {
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-muted-foreground">&copy; 2024 Fernando Renzo Mautino Huerta. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link href="www.linkedin.com/in/fernando-mautino-huerta-1a15602a0" target="_blank" className="text-xs hover:underline underline-offset-4" prefetch={false}>
+          <Link href="https://www.linkedin.com/in/fernando-mautino-huerta-1a15602a0" target="_blank" className="text-xs hover:underline underline-offset-4" prefetch={false}>
             LinkedIn
           </Link>
           <Link href="https://github.com/fmautinoh" target="_blank" className="text-xs hover:underline underline-offset-4" prefetch={false}>
