@@ -21,7 +21,7 @@ export function Portfolio() {
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Fernando Renzo Mautino Huerta</h1>
               <p className="text-muted-foreground md:text-xl">
-                Desarrollador backend apasionado con un enfoque en la construcción de aplicaciones escalables y eficientes.
+                Desarrollador backend apasionado en la construcción de aplicaciones escalables y eficientes.
               </p>
               <ModalContact></ModalContact>
             </div>
@@ -90,7 +90,7 @@ export function Portfolio() {
                 <CardHeader>
                   <CardTitle>Control de documentos administrativos</CardTitle>
                   <CardDescription>
-                    Se diseñó un REST/API para conectar el Frontend y la Base de Datos, usando JWT y Bycript para el login y manejo de sesiones.
+                    Se diseñó un REST/API para conectar el Frontend y la Base de Datos, usando JWT y Bycript para el login y manejo de autenticaciones al API.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -113,7 +113,7 @@ export function Portfolio() {
                 <CardHeader>
                   <CardTitle>Inventariado de Biblioteca</CardTitle>
                   <CardDescription>
-                    Se diseñó un REST/API para conectar el Frontend y la Base de Datos, usando JWT y Argon2 para el login y manejo de sesiones.
+                    Se diseñó un REST/API para conectar el Frontend y la Base de Datos, usando JWT y Argon2 para el login y manejo de autenticaciones al API.
                   </CardDescription>
                   <CardDescription>
                     Control de Inventario de Biblioteca Escolar.
